@@ -5,6 +5,7 @@
  Datum: <22.10.2022>
  Quellen: <Natan Haider, Aanya Khetarpal, Henning Reck>
 */
+namespace L02{
 window.addEventListener("load", handleLoad);
 
 function handleLoad(): void {
@@ -54,4 +55,4 @@ function customEvent(_event: Event): void {
     let event: CustomEvent = new CustomEvent("Go!", { bubbles: true });
 
     button.dispatchEvent(event);
-}
+}}

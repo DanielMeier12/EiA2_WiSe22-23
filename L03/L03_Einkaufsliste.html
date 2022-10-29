@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einkaufsliste</title>
+    <script src="script.js" defer=""></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body>
+    <h1>Einkaufsliste</h1>
+
+    <div id="addToList">
+        <input type="text" class="boxInput" placeholder="Produkt">
+        
+        <input type="number" class="boxInput" placeholder="Anzahl">
+        
+        <input type="text" class="boxInput" placeholder="Kommentar">
+
+        <button id="add" class="boxInput">Hinzufügen</button>
+    </div>
+
+    <div id="item0" class="buy">
+        <input type="checkbox" id="check0">
+        <p class="product">Kellogs Smacks</p>
+        <p class="amount">1</p>
+        <p class="date">01.10.2022</p>
+        <p class="comment">XXL Packung</p>
+        <i id="trash0" class="fas fa-trash"></i>
+        <i id="edit0" class="fas fa-pen"></i>
+    </div>
+    
+    <div id="item1" class="buyNext">
+        <input type="checkbox" id="check1" >
+        <p class="product">Fruchtzwerge</p>
+        <p class="amount">2</p>
+        <p class="date">15.10.2022</p>
+        <p class="comment">Packung</p>
+        <i id="trash1" class="fas fa-trash"></i>
+        <i id="edit1" class="fas fa-pen"></i>
+    </div>
+</body>
+</html>

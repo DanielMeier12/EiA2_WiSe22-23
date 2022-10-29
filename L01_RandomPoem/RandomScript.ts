@@ -5,7 +5,7 @@ Matrikel: <271129>
 Datum: <15.10.2022>
 Quellen: <Natan Haider, Aanya Khetarpal>
 */
-
+namespace L01{
 let subject: string [] = ["Harry", "Hermine", "Ron", "Hagrid", "Snape", "Dumbledore"];
 let predicate: string [] = ["braut", "liebt", "studiert", "hasst", "zaubert", "zerstört"];
 let object: string [] = ["Zaubertränke", "den Grimm", "Lupin", "Hogwarts", "die Karte des Rumtreibers", "Dementoren"];
@@ -27,4 +27,4 @@ function getVerse (_subject: string[], _predicate: string[], _object: string[]):
     _object.splice(randomObjekt, 1 );
 
     return verse;
-}
+}}
