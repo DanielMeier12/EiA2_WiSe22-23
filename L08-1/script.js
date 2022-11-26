@@ -70,7 +70,6 @@ var L08;
             crc2.closePath();
             crc2.fill();
             crc2.stroke();
-            crc2.resetTransform();
         }
     }
     function generateBezier(_index) {
@@ -82,7 +81,6 @@ var L08;
             crc2.bezierCurveTo(x, y, 100, 1000, 0, 0);
             crc2.closePath();
             crc2.stroke();
-            crc2.resetTransform();
             crc2.lineWidth = 5;
         }
     }

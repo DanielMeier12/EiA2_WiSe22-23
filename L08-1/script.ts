@@ -41,7 +41,7 @@ namespace L08 {
         crc2.fillStyle = gradient;
         crc2.fillRect(0, 0, crc2.canvas.width, crc2.canvas.height);
 
-        let pattern: CanvasRenderingContext2D = <CanvasRenderingContext2D>document.createElement("canvas").getContext("2d");
+        let pattern: CanvasRenderingContext2D = <CanvasRenderingContext2D>document.createElement("canvas").getContext("2d");    
         pattern.canvas.width = 60;
         pattern.canvas.height = 120;
 
@@ -82,8 +82,6 @@ namespace L08 {
             crc2.closePath();
             crc2.fill();
             crc2.stroke();
-
-            crc2.resetTransform();
         }
     }
     function generateBezier(_index: number): void {
@@ -96,8 +94,6 @@ namespace L08 {
             crc2.bezierCurveTo(x, y, 100, 1000, 0, 0);
             crc2.closePath();
             crc2.stroke();
-
-            crc2.resetTransform();
             crc2.lineWidth = 5;
         }
     }
