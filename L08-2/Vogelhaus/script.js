@@ -22,7 +22,6 @@ var L08_Vogelhaus;
         drawCloud({ x: 500, y: 125 }, { x: 250, y: 75 });
         drawMountains({ x: 0, y: horizon }, 75, 200, "lightgrey", "white");
         drawMountains({ x: 0, y: horizon }, 50, 150, "white", "lightgrey");
-        drawTrees(2, 1, 1);
         drawTree({ x: 600, y: 350 });
         drawSnowflakes();
         drawBirdhouse({ x: randomNumber(50, 400), y: 400 });
