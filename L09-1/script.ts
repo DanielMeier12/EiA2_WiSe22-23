@@ -45,11 +45,6 @@ namespace L09_OldMacDonaldFarm {
                     "With a " + this.sound + " here" + "<br>" + "And a " + this.sound + " there" + "<br>" + "Here a " + this.sound + " there a " + this.sound + "<br>"
                     + "Everywhere a " + this.sound + "<br>" + "OldMac Donald had a farm" + "<br>" + "Ee i ee i o" + "<br>" + "<br>";
                 song.appendChild(newDiv);
-            } else if (this.species == "cow") {
-                newDiv.innerHTML = "<i>" + this.name + "</i>" + "<br>" + "<br>" + "OldMac Donald had a farm" + "<br>" + "Ee i ee i o" + "<br>" + "And on his farm he had some " + this.species + "s" + "<br>" +
-                    "With a " + this.sound + " here" + "<br>" + "And a " + this.sound + " there" + "<br>" + "Here a " + this.sound + " there a " + this.sound + "<br>"
-                    + "Everywhere a " + this.sound + "<br>" + "<br>";
-                song.appendChild(newDiv);
             } else {
                 newDiv.innerHTML = "<br> <br> <i>" + this.name + "</i>" + "<br>" + "<br>" + "OldMac Donald had a farm" + "<br>" + "Ee i ee i o" + "<br>" + "And on his farm he had some " + this.species + "s" + "<br>" +
                     "With a " + this.sound + " here" + "<br>" + "And a " + this.sound + " there" + "<br>" + "Here a " + this.sound + " there a " + this.sound + "<br>"
